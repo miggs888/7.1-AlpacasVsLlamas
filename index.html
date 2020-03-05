@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Asap+Condensed&display=swap" rel="stylesheet">
+    <title>Llamas Vs. Alpacas</title>
+  </head>
+
+  <body>
+    <div id="llamasvalpacas" v-cloak>
+      <h1>{{llamaSectionTitle}}</h1>
+          <ol>
+            <li v-for="llama in llamaFactsList">{{ llamaFactsList.fact }}</li>
+            </ol>
+              <a v-bind:title="llamaLinkTitle" v-bind:href="llamaLink">More Llama Facts</a>
+      <h1>{{apacaSectionTitle}}</h1>
+          <ol>
+            <li v-for="alpaca in alpacaFactsList">{{ alpacaFactsList.fact }}</li>
+            </ol>
+              <a v-bind:title="alpacaLinkTitle" v-bind:href="alpacaLink">More Alpaca Facts</a>
+    </div>
+    <script src="vue.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>

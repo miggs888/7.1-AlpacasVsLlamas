@@ -1,0 +1,30 @@
+[v-cloak]{
+  display: none;
+}
+h1 {
+  text-align: center;
+  font-family: 'Alfa Slab One', 'sans-serif';
+  color: #ffd55e;
+  letter-spacing: 1px;
+}
+a:link {
+  text-decoration: none;
+  color: #06098c;
+  font-family: 'Asap Condensed', 'sans-serif';
+}
+a:hover {
+  color: #ffd55e;
+}
+ol {
+  margin: 20px;
+}
+li {
+  font-family: 'Asap Condensed', 'sans-serif';
+  padding: 5px;
+  font-size: 90%;
+  color: #ffffff;
+}
+body {
+  background-color: #5bc0de;
+
+}
