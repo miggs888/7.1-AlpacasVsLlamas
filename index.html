@@ -12,12 +12,12 @@
     <div id="llamasvalpacas" v-cloak>
       <h1>{{llamaSectionTitle}}</h1>
           <ol>
-            <li v-for="llama in llamaFactsList">{{ llamaFactsList.fact }}</li>
+            <li v-for="llama in llamaFactsList">{{ llama.fact }}</li>
             </ol>
               <a v-bind:title="llamaLinkTitle" v-bind:href="llamaLink">More Llama Facts</a>
       <h1>{{apacaSectionTitle}}</h1>
           <ol>
-            <li v-for="alpaca in alpacaFactsList">{{ alpacaFactsList.fact }}</li>
+            <li v-for="alpaca in alpacaFactsList">{{ alpaca.fact }}</li>
             </ol>
               <a v-bind:title="alpacaLinkTitle" v-bind:href="alpacaLink">More Alpaca Facts</a>
     </div>
